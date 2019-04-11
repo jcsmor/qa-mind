@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2159285898,
+  "duration": 2167709710,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,32 +48,32 @@ formatter.match({
   "location": "SortSteps.java:16"
 });
 formatter.result({
-  "duration": 501153842,
+  "duration": 442128514,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.java:20"
 });
 formatter.result({
-  "duration": 75684809,
+  "duration": 76009166,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.java:24"
 });
 formatter.result({
-  "duration": 769676386,
+  "duration": 777786294,
   "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.java:28"
 });
 formatter.result({
-  "duration": 92437179,
+  "duration": 93210363,
   "status": "passed"
 });
 formatter.after({
-  "duration": 81698358,
+  "duration": 78275621,
   "status": "passed"
 });
 });
