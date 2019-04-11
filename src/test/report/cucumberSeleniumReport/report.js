@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1476000975,
+  "duration": 2159285898,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,30 +48,32 @@ formatter.match({
   "location": "SortSteps.java:16"
 });
 formatter.result({
-  "duration": 15275481450,
-  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: Element By.cssSelector: div \u003e ul \u003e li not found (tried for 15 second(s) with 50 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat global_methods.ECMethods.waitForVisibilityOfElement(ECMethods.java:24)\n\tat page_objects.Sort.goToPage(Sort.java:23)\n\tat web.steps.SortSteps.lambda$new$0(SortSteps.java:17)\n\tat ✽.Given the user navigates to the page(src/test/java/features/main.feature:5)\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: div \u003e ul \u003e li\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MacBook-Pro-de-BOLD.local\u0027, ip: \u0027fe80:0:0:0:c9f:c2c9:3334:6249%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.4\u0027, java.version: \u00271.8.0_191\u0027\nDriver info: driver.version: unknown\n\tat global_methods.AdditionalConditions$1.apply(AdditionalConditions.java:35)\n\tat global_methods.AdditionalConditions$1.apply(AdditionalConditions.java:29)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat global_methods.ECMethods.waitForVisibilityOfElement(ECMethods.java:24)\n\tat page_objects.Sort.goToPage(Sort.java:23)\n\tat web.steps.SortSteps.lambda$new$0(SortSteps.java:17)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.Java8StepDefinition.execute(Java8StepDefinition.java:115)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.runtime.Runtime.run(Runtime.java:122)\n\tat cucumber.api.cli.Main.run(Main.java:36)\n\tat cucumber.api.cli.Main.main(Main.java:18)\n",
-  "status": "failed"
+  "duration": 501153842,
+  "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.java:20"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 75684809,
+  "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.java:24"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 769676386,
+  "status": "passed"
 });
 formatter.match({
   "location": "SortSteps.java:28"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 92437179,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 69307661,
+  "duration": 81698358,
   "status": "passed"
 });
 });
