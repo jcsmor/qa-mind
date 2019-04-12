@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  node:
+    build: qa-sortable-challenge/
+    image: nodeserver
+    ports:
+      - "3000:3000"
+
+#  gradle:
+#    build: .
+#    image: gradle:jdk10
+
+

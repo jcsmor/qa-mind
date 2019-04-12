@@ -1,6 +1,6 @@
 # Mind Challenge 
 
-This project presents a series of Api tests and Selenium using:
+This project presents a cucumber java automation challenge
 
 ## Getting Started
 
@@ -11,24 +11,31 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 Get the code Git:
 
-git clone https://github.com/jcsmor/challengeS.git cd challengeS
+git clone https://github.com/jcsmor/qa-mind.git
 
-Install Gradle and Gradle dependencies
+Go to subdirectory qa-sortable-challenge
+
+npm install -g parcel
+
+npm install
+
+npm start
+
+Now you must be able to see the web app on http://localhost:3000
+
+Go back to main Folder qa-mind and install Gradle and Gradle dependencies with gradle build
 ```
 
 ## Running the tests
 
 To run the Selenium tests open a command window and run:
 
-./gradlew selenium  or  gradle selenium
+./gradlew run  or  gradle run
 
-To run the Api tests open a command window and run:
-
-./gradlew apiTest or gradle apiTest
 
 ### And coding style tests
 
-Selenim tests use Cucumber and Java and the lattest version of chromedriver
+Selenium tests use Cucumber and Java and the lattest version of chromedriver
 
 Api tests use cucumber and Java with rest assured libraries and Hamcrest Matchers
 
