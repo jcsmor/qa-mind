@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2167709710,
+  "duration": 1716380876,
   "status": "passed"
 });
 formatter.scenario({
@@ -45,35 +45,35 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "SortSteps.java:16"
+  "location": "SortSteps.java:15"
 });
 formatter.result({
-  "duration": 442128514,
+  "duration": 357309781,
   "status": "passed"
 });
 formatter.match({
-  "location": "SortSteps.java:20"
+  "location": "SortSteps.java:19"
 });
 formatter.result({
-  "duration": 76009166,
+  "duration": 70737840,
   "status": "passed"
 });
 formatter.match({
-  "location": "SortSteps.java:24"
+  "location": "SortSteps.java:23"
 });
 formatter.result({
-  "duration": 777786294,
+  "duration": 756655110,
   "status": "passed"
 });
 formatter.match({
-  "location": "SortSteps.java:28"
+  "location": "SortSteps.java:27"
 });
 formatter.result({
-  "duration": 93210363,
+  "duration": 90416507,
   "status": "passed"
 });
 formatter.after({
-  "duration": 78275621,
+  "duration": 78845964,
   "status": "passed"
 });
 });

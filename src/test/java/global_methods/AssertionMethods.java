@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.is;
  */
 public class AssertionMethods {
 
-    public static void assertTrue (Object actual){
+    public static void assertTrue (boolean actual){
         assertThat(actual, is(true));
     }
 

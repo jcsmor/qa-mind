@@ -4,7 +4,6 @@ import cucumber.api.java8.En;
 import global_methods.AssertionMethods;
 import global_methods.Driver;
 import page_objects.Sort;
-
 import java.text.ParseException;
 
 
