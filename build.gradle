@@ -41,7 +41,6 @@ dependencies {
     testCompile "info.cukes:cucumber-picocontainer:1.2.5"
     compile "io.rest-assured:json-schema-validator:3.3.0"
     testCompile group: 'com.jayway.restassured', name: 'rest-assured', version: '2.9.0'
-
 }
 
 configurations {
@@ -49,6 +48,8 @@ configurations {
         extendsFrom testRuntime
     }
 }
+
+
 
 task run() {
     dependsOn assemble, compileTestJava

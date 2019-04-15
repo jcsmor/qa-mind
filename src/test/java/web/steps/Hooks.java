@@ -22,7 +22,7 @@ public class Hooks {
         //DesiredCapabilities cap = new DesiredCapabilities();
 
         ChromeOptions options = new ChromeOptions();
-        //options.addArguments("headless");
+        options.addArguments("headless");
         Driver.add(Configuration.get("browser"),options);
     }
 
